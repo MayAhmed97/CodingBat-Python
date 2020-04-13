@@ -1,0 +1,7 @@
+def front_back(str):
+  x= len(str)
+  if x>1:
+    A= str[0:1]
+    B= str[-1:]
+    return B + str[1:-1] + A
+  return str
