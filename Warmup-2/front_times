@@ -1,0 +1,9 @@
+def front_times(str, n):
+  if len(str) >= 3:
+    Front = str[0:3]
+    return  n * Front
+  return n*str
+
+#comment on suggested solution: we set 2 definition of front_len according to whether
+#the length of the stength is >= 3 (front_len = 3) or less than 3 (front_len = the whole
+#length of string)
