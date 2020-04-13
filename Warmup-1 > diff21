@@ -1,0 +1,7 @@
+def diff21(n):
+  Sum = abs(n-21)
+  if n > 21:
+    return 2*Sum
+  else:
+    return Sum
+    
