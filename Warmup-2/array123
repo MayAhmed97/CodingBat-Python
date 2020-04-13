@@ -1,0 +1,8 @@
+def array123(nums):
+ n= len(nums)
+ if n >= 3:
+  for i in range(n):
+    if nums[i:i+3] == [1,2,3]:
+      return True
+  return False
+ return False
