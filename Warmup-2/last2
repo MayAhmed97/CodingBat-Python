@@ -1,0 +1,9 @@
+def last2(str):
+ if len(str) >= 2:
+  result = 0
+  n = len(str)
+  for i in range(n-2):
+    if str[i:i+2] == str[n-2:n]:
+      result += 1
+  return result
+ return 0
